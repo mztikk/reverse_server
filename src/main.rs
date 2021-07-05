@@ -22,6 +22,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         "https://www.mztikk.de",
         "https://mztikk.de",
         "http://localhost:1234",
+        "https://localhost:1234",
     ]);
 
     let cors = rocket_cors::CorsOptions {
